@@ -15,14 +15,17 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('www.stackoverflow.com')
+WebUI.navigateToUrl('https://www.api.org/')
 
 WebUI.getAllLinksOnCurrentPage(false, [])
 
 WebUI.verifyAllLinksOnCurrentPageAccessible(false, [])
 
-Date today = new Date();
-String todaysDate = today.format('MM_dd_yy');
-String nowTime = today.format('hh_mm_ss');
-WebUI.takeScreenshot("D:/Katalon/screenshot/image_"+ todaysDate +"-" + nowTime +".PNG");
+Date today = new Date()
+
+String todaysDate = today.format('MM_dd_yy')
+
+String nowTime = today.format('hh_mm_ss')
+
+WebUI.takeScreenshot(((('D:/Katalon/screenshot/image_' + todaysDate) + '-') + nowTime) + '.PNG')
 
