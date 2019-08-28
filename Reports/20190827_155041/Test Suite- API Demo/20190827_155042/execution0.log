@@ -1,0 +1,3766 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-08-27T15:50:49</date>
+  <millis>1566901249206</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/Test Suite- API Demo</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">Test Suite- API Demo</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/Test Suite- API Demo</property>
+</record>
+<record>
+  <date>2019-08-27T15:50:49</date>
+  <millis>1566901249244</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = ranitha - CEI3094.CEIIND.COM</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">ranitha - CEI3094.CEIIND.COM</property>
+</record>
+<record>
+  <date>2019-08-27T15:50:49</date>
+  <millis>1566901249245</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 10 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2019-08-27T15:50:49</date>
+  <millis>1566901249247</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 10.6.11.245</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">10.6.11.245</property>
+</record>
+<record>
+  <date>2019-08-27T15:50:49</date>
+  <millis>1566901249249</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 6.0.5.4</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">6.0.5.4</property>
+</record>
+<record>
+  <date>2019-08-27T15:50:49</date>
+  <millis>1566901249921</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Verify Login</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Verify Login</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Verify Login</property>
+  <property name="source">C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Test Cases\\Verify Login.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-08-27T15:50:51</date>
+  <millis>1566901251018</millis>
+  <sequence>8</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Verify Login FAILED.\nReason:\norg.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:\r\nfile:/C:/Users/ranitha/git/API-Project-for-Demo/Scripts/Verify%20Login/Script1566900895714.groovy: 40: The current scope already contains a variable of the name today\n @ line 40, column 6.\r\n   Date today = new Date()\r\n        ^\r\n\r\nfile:/C:/Users/ranitha/git/API-Project-for-Demo/Scripts/Verify%20Login/Script1566900895714.groovy: 42: The current scope already contains a variable of the name todaysDate\n @ line 42, column 8.\r\n   String todaysDate = today.format(&amp;apos;MM_dd_yy&amp;apos;)\r\n          ^\r\n\r\nfile:/C:/Users/ranitha/git/API-Project-for-Demo/Scripts/Verify%20Login/Script1566900895714.groovy: 44: The current scope already contains a variable of the name nowTime\n @ line 44, column 8.\r\n   String nowTime = today.format(&amp;apos;hh_mm_ss&amp;apos;)\r\n          ^\r\n\r\n3 errors\r\n\r\n\tat com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1566901242067.run(TempTestSuite1566901242067.groovy:35)\r\n</message>
+  <exception>
+    <message>org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/ranitha/git/API-Project-for-Demo/Scripts/Verify%20Login/Script1566900895714.groovy: 40: The current scope already contains a variable of the name today
+ @ line 40, column 6.
+   Date today = new Date()
+        ^
+
+file:/C:/Users/ranitha/git/API-Project-for-Demo/Scripts/Verify%20Login/Script1566900895714.groovy: 42: The current scope already contains a variable of the name todaysDate
+ @ line 42, column 8.
+   String todaysDate = today.format('MM_dd_yy')
+          ^
+
+file:/C:/Users/ranitha/git/API-Project-for-Demo/Scripts/Verify%20Login/Script1566900895714.groovy: 44: The current scope already contains a variable of the name nowTime
+ @ line 44, column 8.
+   String nowTime = today.format('hh_mm_ss')
+          ^
+
+3 errors
+</message>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>getScript</method>
+      <line>199</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>337</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>328</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>307</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>299</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>233</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>169</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>142</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>91</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>157</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1566901242067</class>
+      <method>run</method>
+      <line>35</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <property name="failed.exception.stacktrace">org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:\r\nfile:/C:/Users/ranitha/git/API-Project-for-Demo/Scripts/Verify%20Login/Script1566900895714.groovy: 40: The current scope already contains a variable of the name today\n @ line 40, column 6.\r\n   Date today = new Date()\r\n        ^\r\n\r\nfile:/C:/Users/ranitha/git/API-Project-for-Demo/Scripts/Verify%20Login/Script1566900895714.groovy: 42: The current scope already contains a variable of the name todaysDate\n @ line 42, column 8.\r\n   String todaysDate = today.format(&apos;MM_dd_yy&apos;)\r\n          ^\r\n\r\nfile:/C:/Users/ranitha/git/API-Project-for-Demo/Scripts/Verify%20Login/Script1566900895714.groovy: 44: The current scope already contains a variable of the name nowTime\n @ line 44, column 8.\r\n   String nowTime = today.format(&apos;hh_mm_ss&apos;)\r\n          ^\r\n\r\n3 errors\r\n\r\n\tat com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1566901242067.run(TempTestSuite1566901242067.groovy:35)\r\n</property>
+  <property name="failed.exception.class">org.codehaus.groovy.control.MultipleCompilationErrorsException</property>
+  <property name="failed.exception.message">startup failed:\r\nfile:/C:/Users/ranitha/git/API-Project-for-Demo/Scripts/Verify%20Login/Script1566900895714.groovy: 40: The current scope already contains a variable of the name today\n @ line 40, column 6.\r\n   Date today = new Date()\r\n        ^\r\n\r\nfile:/C:/Users/ranitha/git/API-Project-for-Demo/Scripts/Verify%20Login/Script1566900895714.groovy: 42: The current scope already contains a variable of the name todaysDate\n @ line 42, column 8.\r\n   String todaysDate = today.format(&apos;MM_dd_yy&apos;)\r\n          ^\r\n\r\nfile:/C:/Users/ranitha/git/API-Project-for-Demo/Scripts/Verify%20Login/Script1566900895714.groovy: 44: The current scope already contains a variable of the name nowTime\n @ line 44, column 8.\r\n   String nowTime = today.format(&apos;hh_mm_ss&apos;)\r\n          ^\r\n\r\n3 errors\r\n</property>
+</record>
+<record>
+  <date>2019-08-27T15:50:51</date>
+  <millis>1566901251038</millis>
+  <sequence>10</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Verify Login</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:50:51</date>
+  <millis>1566901251103</millis>
+  <sequence>11</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/VerifyBrokenLinks_Pass_Scenario</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/VerifyBrokenLinks_Pass_Scenario</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/VerifyBrokenLinks_Pass_Scenario</property>
+  <property name="source">C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Test Cases\\VerifyBrokenLinks_Pass_Scenario.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-08-27T15:50:51</date>
+  <millis>1566901251692</millis>
+  <sequence>13</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser(\&amp;quot;\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-08-27T15:50:52</date>
+  <millis>1566901252211</millis>
+  <sequence>15</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:50:52</date>
+  <millis>1566901252331</millis>
+  <sequence>17</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 0 seconds</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:51:01</date>
+  <millis>1566901261128</millis>
+  <sequence>19</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = 422f3939b66b530a990627826e665c06</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="sessionId">422f3939b66b530a990627826e665c06</property>
+</record>
+<record>
+  <date>2019-08-27T15:51:01</date>
+  <millis>1566901261178</millis>
+  <sequence>20</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Chrome 76.0.3809.100</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="browser">Chrome 76.0.3809.100</property>
+</record>
+<record>
+  <date>2019-08-27T15:51:01</date>
+  <millis>1566901261179</millis>
+  <sequence>21</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Windows 10</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="platform">Windows 10</property>
+</record>
+<record>
+  <date>2019-08-27T15:51:01</date>
+  <millis>1566901261180</millis>
+  <sequence>22</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 3.141.59</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="seleniumVersion">3.141.59</property>
+</record>
+<record>
+  <date>2019-08-27T15:51:01</date>
+  <millis>1566901261181</millis>
+  <sequence>23</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="proxyInformation">ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</property>
+</record>
+<record>
+  <date>2019-08-27T15:51:01</date>
+  <millis>1566901261182</millis>
+  <sequence>24</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:51:01</date>
+  <millis>1566901261183</millis>
+  <sequence>25</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : openBrowser(\&amp;quot;\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:51:01</date>
+  <millis>1566901261184</millis>
+  <sequence>26</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : navigateToUrl(\&amp;quot;www.stackoverflow.com\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-08-27T15:51:04</date>
+  <millis>1566901264156</millis>
+  <sequence>29</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigate to &amp;apos;http://www.stackoverflow.com&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:51:04</date>
+  <millis>1566901264157</millis>
+  <sequence>30</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : navigateToUrl(\&amp;quot;www.stackoverflow.com\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:51:04</date>
+  <millis>1566901264157</millis>
+  <sequence>31</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : getAllLinksOnCurrentPage(false, [])</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">20</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-08-27T15:51:08</date>
+  <millis>1566901268390</millis>
+  <sequence>34</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 38 unique links on the page https://stackoverflow.com/</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:51:08</date>
+  <millis>1566901268391</millis>
+  <sequence>35</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : getAllLinksOnCurrentPage(false, [])</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:51:08</date>
+  <millis>1566901268391</millis>
+  <sequence>36</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyAllLinksOnCurrentPageAccessible(false, [])</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">22</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2019-08-27T15:51:11</date>
+  <millis>1566901271362</millis>
+  <sequence>39</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 38 unique links on the page https://stackoverflow.com/</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:51:12</date>
+  <millis>1566901272799</millis>
+  <sequence>41</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\0.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">b45bdcc3-9006-4bab-90a6-b29f766eb313</property>
+</record>
+<record>
+  <date>2019-08-27T15:51:12</date>
+  <millis>1566901272986</millis>
+  <sequence>42</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:51:13</date>
+  <millis>1566901273589</millis>
+  <sequence>44</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\1.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">be37dc0f-3239-40b5-8f46-5ede36f083d1</property>
+</record>
+<record>
+  <date>2019-08-27T15:51:13</date>
+  <millis>1566901273608</millis>
+  <sequence>45</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:51:14</date>
+  <millis>1566901274356</millis>
+  <sequence>47</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\2.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">eea0ef55-e40b-4491-9170-7b8be88e5a13</property>
+</record>
+<record>
+  <date>2019-08-27T15:51:14</date>
+  <millis>1566901274378</millis>
+  <sequence>48</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:51:14</date>
+  <millis>1566901274986</millis>
+  <sequence>50</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\3.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">ad667f15-bff4-4748-9e3c-8f0dd4c4c126</property>
+</record>
+<record>
+  <date>2019-08-27T15:51:15</date>
+  <millis>1566901275005</millis>
+  <sequence>51</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:51:16</date>
+  <millis>1566901276014</millis>
+  <sequence>53</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\4.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">5a1609ed-63a1-4b04-bf42-6004548dd209</property>
+</record>
+<record>
+  <date>2019-08-27T15:51:16</date>
+  <millis>1566901276032</millis>
+  <sequence>54</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:51:16</date>
+  <millis>1566901276656</millis>
+  <sequence>56</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\5.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">17f38fb5-ba46-48d8-a78f-23990ec8367c</property>
+</record>
+<record>
+  <date>2019-08-27T15:51:16</date>
+  <millis>1566901276668</millis>
+  <sequence>57</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:51:17</date>
+  <millis>1566901277732</millis>
+  <sequence>59</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\6.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">84959f8a-536e-46f3-a141-59ba7c8f173a</property>
+</record>
+<record>
+  <date>2019-08-27T15:51:17</date>
+  <millis>1566901277765</millis>
+  <sequence>60</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:51:18</date>
+  <millis>1566901278402</millis>
+  <sequence>62</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\7.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">1dba6f0c-cf7c-4f95-a69f-74eb725a0e31</property>
+</record>
+<record>
+  <date>2019-08-27T15:51:18</date>
+  <millis>1566901278421</millis>
+  <sequence>63</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:51:19</date>
+  <millis>1566901279220</millis>
+  <sequence>65</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\8.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">bffbcd0c-9f56-4605-8f3f-8f36df79cc08</property>
+</record>
+<record>
+  <date>2019-08-27T15:51:19</date>
+  <millis>1566901279230</millis>
+  <sequence>66</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:51:20</date>
+  <millis>1566901280013</millis>
+  <sequence>68</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\9.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">c19fed16-7ade-457a-95db-f063704e82b4</property>
+</record>
+<record>
+  <date>2019-08-27T15:51:20</date>
+  <millis>1566901280020</millis>
+  <sequence>69</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:51:20</date>
+  <millis>1566901280781</millis>
+  <sequence>71</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\10.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">241486e3-15db-47ea-9a87-345dfa19c1f5</property>
+</record>
+<record>
+  <date>2019-08-27T15:51:20</date>
+  <millis>1566901280791</millis>
+  <sequence>72</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:51:21</date>
+  <millis>1566901281275</millis>
+  <sequence>74</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\11.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">6921f946-e5d1-4f11-a531-0f4bf684fe93</property>
+</record>
+<record>
+  <date>2019-08-27T15:51:21</date>
+  <millis>1566901281278</millis>
+  <sequence>75</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:51:21</date>
+  <millis>1566901281700</millis>
+  <sequence>77</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\12.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">23583ab6-d3ff-4e6c-a8bc-079887906cd0</property>
+</record>
+<record>
+  <date>2019-08-27T15:51:21</date>
+  <millis>1566901281715</millis>
+  <sequence>78</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:51:22</date>
+  <millis>1566901282185</millis>
+  <sequence>80</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\13.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">99c10057-524f-40ee-a657-4d9648a902e4</property>
+</record>
+<record>
+  <date>2019-08-27T15:51:22</date>
+  <millis>1566901282199</millis>
+  <sequence>81</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:51:22</date>
+  <millis>1566901282729</millis>
+  <sequence>83</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\14.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">ec08311d-7b33-48fe-b944-9d9dd4a5314f</property>
+</record>
+<record>
+  <date>2019-08-27T15:51:22</date>
+  <millis>1566901282742</millis>
+  <sequence>84</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:51:23</date>
+  <millis>1566901283321</millis>
+  <sequence>86</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\15.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">2fefc172-4bb6-42a6-9d19-c75308a7ee34</property>
+</record>
+<record>
+  <date>2019-08-27T15:51:23</date>
+  <millis>1566901283367</millis>
+  <sequence>87</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:51:23</date>
+  <millis>1566901283753</millis>
+  <sequence>89</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\16.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">a9c38917-6380-4c8a-9040-282d236b3ecb</property>
+</record>
+<record>
+  <date>2019-08-27T15:51:23</date>
+  <millis>1566901283763</millis>
+  <sequence>90</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:51:24</date>
+  <millis>1566901284449</millis>
+  <sequence>92</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\17.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">10381784-423e-4f90-86e1-025129d0299d</property>
+</record>
+<record>
+  <date>2019-08-27T15:51:24</date>
+  <millis>1566901284459</millis>
+  <sequence>93</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:51:25</date>
+  <millis>1566901285212</millis>
+  <sequence>95</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\18.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">fe965620-14a1-4ee9-ab5a-38756154a1f6</property>
+</record>
+<record>
+  <date>2019-08-27T15:51:25</date>
+  <millis>1566901285220</millis>
+  <sequence>96</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:51:25</date>
+  <millis>1566901285821</millis>
+  <sequence>98</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\19.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">338a7792-f66a-406d-b60b-fa5072d01cb5</property>
+</record>
+<record>
+  <date>2019-08-27T15:51:25</date>
+  <millis>1566901285829</millis>
+  <sequence>99</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:51:26</date>
+  <millis>1566901286560</millis>
+  <sequence>101</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\20.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">4d83fca9-2e06-4d6f-9397-89d595f2736b</property>
+</record>
+<record>
+  <date>2019-08-27T15:51:26</date>
+  <millis>1566901286577</millis>
+  <sequence>102</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:51:27</date>
+  <millis>1566901287182</millis>
+  <sequence>104</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\21.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">f4240531-2e63-4805-8e80-6b1e5a950583</property>
+</record>
+<record>
+  <date>2019-08-27T15:51:27</date>
+  <millis>1566901287196</millis>
+  <sequence>105</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:51:27</date>
+  <millis>1566901287775</millis>
+  <sequence>107</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\22.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">93bfe4bc-1caf-4c8b-869f-8e27f14a56f7</property>
+</record>
+<record>
+  <date>2019-08-27T15:51:27</date>
+  <millis>1566901287779</millis>
+  <sequence>108</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:51:28</date>
+  <millis>1566901288492</millis>
+  <sequence>110</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\23.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">72d1e0e3-839f-4c0f-b050-e31f9a7f6b5a</property>
+</record>
+<record>
+  <date>2019-08-27T15:51:28</date>
+  <millis>1566901288504</millis>
+  <sequence>111</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:51:29</date>
+  <millis>1566901289427</millis>
+  <sequence>113</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\24.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">80b0d678-6418-48c7-a65e-bfbcd55b9eab</property>
+</record>
+<record>
+  <date>2019-08-27T15:51:29</date>
+  <millis>1566901289439</millis>
+  <sequence>114</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:51:30</date>
+  <millis>1566901290106</millis>
+  <sequence>116</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\25.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">a7cfa5ac-23c5-4656-9073-c686bb428452</property>
+</record>
+<record>
+  <date>2019-08-27T15:51:30</date>
+  <millis>1566901290116</millis>
+  <sequence>117</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:51:30</date>
+  <millis>1566901290501</millis>
+  <sequence>119</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\26.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">0f5484b8-7a31-4db0-8771-1b0923bb9a03</property>
+</record>
+<record>
+  <date>2019-08-27T15:51:30</date>
+  <millis>1566901290516</millis>
+  <sequence>120</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:51:31</date>
+  <millis>1566901291655</millis>
+  <sequence>122</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\27.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">6698b8a4-ac98-4e8a-91ec-2801837fd39a</property>
+</record>
+<record>
+  <date>2019-08-27T15:51:31</date>
+  <millis>1566901291682</millis>
+  <sequence>123</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:51:32</date>
+  <millis>1566901292825</millis>
+  <sequence>125</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\28.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">a19e85f0-8c66-409f-be16-e35e69937aef</property>
+</record>
+<record>
+  <date>2019-08-27T15:51:32</date>
+  <millis>1566901292838</millis>
+  <sequence>126</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:51:34</date>
+  <millis>1566901294197</millis>
+  <sequence>128</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\29.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">412b5a82-054f-4216-b055-2b09ebeb25e2</property>
+</record>
+<record>
+  <date>2019-08-27T15:51:34</date>
+  <millis>1566901294209</millis>
+  <sequence>129</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:51:35</date>
+  <millis>1566901295383</millis>
+  <sequence>131</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\30.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">edb0547e-57b1-4cdb-bbb9-bea5e6cb7c3f</property>
+</record>
+<record>
+  <date>2019-08-27T15:51:35</date>
+  <millis>1566901295397</millis>
+  <sequence>132</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:51:35</date>
+  <millis>1566901295986</millis>
+  <sequence>134</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\31.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">d2312b94-d4bf-4855-a40c-6bd7ee26f229</property>
+</record>
+<record>
+  <date>2019-08-27T15:51:36</date>
+  <millis>1566901296002</millis>
+  <sequence>135</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:51:36</date>
+  <millis>1566901296793</millis>
+  <sequence>137</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\32.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">a7738be5-2bca-4ecf-9e69-1ab588cbcadc</property>
+</record>
+<record>
+  <date>2019-08-27T15:51:36</date>
+  <millis>1566901296802</millis>
+  <sequence>138</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:51:37</date>
+  <millis>1566901297882</millis>
+  <sequence>140</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\33.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">371f3dc6-240a-4197-8f5c-43e2dc11c381</property>
+</record>
+<record>
+  <date>2019-08-27T15:51:37</date>
+  <millis>1566901297899</millis>
+  <sequence>141</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:51:38</date>
+  <millis>1566901298479</millis>
+  <sequence>143</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\34.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">f5442211-2d39-40ea-a55a-7397a94e8c12</property>
+</record>
+<record>
+  <date>2019-08-27T15:51:38</date>
+  <millis>1566901298495</millis>
+  <sequence>144</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:51:39</date>
+  <millis>1566901299266</millis>
+  <sequence>146</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\35.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">0d8db509-933b-40a3-8f3d-f4b6b0b6da45</property>
+</record>
+<record>
+  <date>2019-08-27T15:51:39</date>
+  <millis>1566901299278</millis>
+  <sequence>147</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:51:40</date>
+  <millis>1566901300669</millis>
+  <sequence>149</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\36.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">92d60955-99a6-462d-8aed-5b5920b30013</property>
+</record>
+<record>
+  <date>2019-08-27T15:51:40</date>
+  <millis>1566901300686</millis>
+  <sequence>150</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:51:41</date>
+  <millis>1566901301100</millis>
+  <sequence>152</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\37.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">416c5054-b951-458a-b3b2-d741f104d47b</property>
+</record>
+<record>
+  <date>2019-08-27T15:51:41</date>
+  <millis>1566901301115</millis>
+  <sequence>153</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:51:41</date>
+  <millis>1566901301116</millis>
+  <sequence>154</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>All links are accessible</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:51:41</date>
+  <millis>1566901301116</millis>
+  <sequence>155</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>All links on the page &amp;apos;https://stackoverflow.com/&amp;apos; are accessible</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:51:41</date>
+  <millis>1566901301118</millis>
+  <sequence>156</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyAllLinksOnCurrentPageAccessible(false, [])</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:51:41</date>
+  <millis>1566901301118</millis>
+  <sequence>157</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : today = new java.util.Date()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">24</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2019-08-27T15:51:41</date>
+  <millis>1566901301143</millis>
+  <sequence>158</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : today = new java.util.Date()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:51:41</date>
+  <millis>1566901301144</millis>
+  <sequence>159</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : todaysDate = today.format(\&amp;quot;MM_dd_yy\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">25</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2019-08-27T15:51:41</date>
+  <millis>1566901301162</millis>
+  <sequence>160</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : todaysDate = today.format(\&amp;quot;MM_dd_yy\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:51:41</date>
+  <millis>1566901301163</millis>
+  <sequence>161</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : nowTime = today.format(\&amp;quot;hh_mm_ss\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">26</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2019-08-27T15:51:41</date>
+  <millis>1566901301164</millis>
+  <sequence>162</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : nowTime = today.format(\&amp;quot;hh_mm_ss\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:51:41</date>
+  <millis>1566901301164</millis>
+  <sequence>163</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : takeScreenshot(\&amp;quot;D:/Katalon/screenshot/image_\&amp;quot; + todaysDate + \&amp;quot;-\&amp;quot; + nowTime + \&amp;quot;.PNG\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">27</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2019-08-27T15:51:41</date>
+  <millis>1566901301525</millis>
+  <sequence>164</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Taking screenshot successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="attachment">D:/Katalon/screenshot/image_08_27_19-03_51_41.PNG</property>
+</record>
+<record>
+  <date>2019-08-27T15:51:41</date>
+  <millis>1566901301526</millis>
+  <sequence>165</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : takeScreenshot(\&amp;quot;D:/Katalon/screenshot/image_\&amp;quot; + todaysDate + \&amp;quot;-\&amp;quot; + nowTime + \&amp;quot;.PNG\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:51:41</date>
+  <millis>1566901301526</millis>
+  <sequence>166</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/VerifyBrokenLinks_Pass_Scenario</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:51:41</date>
+  <millis>1566901301527</millis>
+  <sequence>167</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/VerifyBrokenLinks_Pass_Scenario</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:51:41</date>
+  <millis>1566901301545</millis>
+  <sequence>168</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/VerifyBrokenLinks_Fail_Scenario</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/VerifyBrokenLinks_Fail_Scenario</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/VerifyBrokenLinks_Fail_Scenario</property>
+  <property name="source">C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Test Cases\\VerifyBrokenLinks_Fail_Scenario.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-08-27T15:51:41</date>
+  <millis>1566901301915</millis>
+  <sequence>170</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser(\&amp;quot;\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-08-27T15:51:41</date>
+  <millis>1566901301919</millis>
+  <sequence>172</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>A browser is already opened. Closing browser and opening a new one</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:51:42</date>
+  <millis>1566901302779</millis>
+  <sequence>173</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:51:49</date>
+  <millis>1566901309024</millis>
+  <sequence>176</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = ab04392006ae7ede4470b44fd99839fe</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="sessionId">ab04392006ae7ede4470b44fd99839fe</property>
+</record>
+<record>
+  <date>2019-08-27T15:51:49</date>
+  <millis>1566901309051</millis>
+  <sequence>177</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Chrome 76.0.3809.100</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="browser">Chrome 76.0.3809.100</property>
+</record>
+<record>
+  <date>2019-08-27T15:51:49</date>
+  <millis>1566901309051</millis>
+  <sequence>178</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Windows 10</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="platform">Windows 10</property>
+</record>
+<record>
+  <date>2019-08-27T15:51:49</date>
+  <millis>1566901309052</millis>
+  <sequence>179</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 3.141.59</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="seleniumVersion">3.141.59</property>
+</record>
+<record>
+  <date>2019-08-27T15:51:49</date>
+  <millis>1566901309053</millis>
+  <sequence>180</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="proxyInformation">ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</property>
+</record>
+<record>
+  <date>2019-08-27T15:51:49</date>
+  <millis>1566901309054</millis>
+  <sequence>181</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:51:49</date>
+  <millis>1566901309054</millis>
+  <sequence>182</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : openBrowser(\&amp;quot;\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:51:49</date>
+  <millis>1566901309055</millis>
+  <sequence>183</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : navigateToUrl(\&amp;quot;www.deadlinkcity.com\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-08-27T15:51:57</date>
+  <millis>1566901317280</millis>
+  <sequence>186</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigate to &amp;apos;http://www.deadlinkcity.com&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:51:57</date>
+  <millis>1566901317282</millis>
+  <sequence>187</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : navigateToUrl(\&amp;quot;www.deadlinkcity.com\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:51:57</date>
+  <millis>1566901317283</millis>
+  <sequence>188</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : getAllLinksOnCurrentPage(false, [])</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">20</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-08-27T15:51:58</date>
+  <millis>1566901318501</millis>
+  <sequence>191</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 64 unique links on the page http://www.deadlinkcity.com/</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:51:58</date>
+  <millis>1566901318502</millis>
+  <sequence>192</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : getAllLinksOnCurrentPage(false, [])</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:51:58</date>
+  <millis>1566901318502</millis>
+  <sequence>193</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyAllLinksOnCurrentPageAccessible(false, [])</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">22</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2019-08-27T15:51:59</date>
+  <millis>1566901319398</millis>
+  <sequence>196</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 64 unique links on the page http://www.deadlinkcity.com/</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:51:59</date>
+  <millis>1566901319885</millis>
+  <sequence>198</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\38.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">ad50d941-1102-4e73-be06-f82d895fd05b</property>
+</record>
+<record>
+  <date>2019-08-27T15:51:59</date>
+  <millis>1566901319888</millis>
+  <sequence>199</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:52:00</date>
+  <millis>1566901320124</millis>
+  <sequence>201</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\39.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">273256c4-8a1f-4f05-90c9-56b4b02e6dc6</property>
+</record>
+<record>
+  <date>2019-08-27T15:52:00</date>
+  <millis>1566901320126</millis>
+  <sequence>202</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:52:00</date>
+  <millis>1566901320359</millis>
+  <sequence>204</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\40.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">0f079928-549f-450c-8172-9ed094524cd8</property>
+</record>
+<record>
+  <date>2019-08-27T15:52:00</date>
+  <millis>1566901320361</millis>
+  <sequence>205</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:52:00</date>
+  <millis>1566901320823</millis>
+  <sequence>207</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\41.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">d3c61fe2-9bdb-41dd-8589-f773680777ef</property>
+</record>
+<record>
+  <date>2019-08-27T15:52:00</date>
+  <millis>1566901320826</millis>
+  <sequence>208</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:52:01</date>
+  <millis>1566901321531</millis>
+  <sequence>210</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\42.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">881bc269-6273-4ba0-82cf-f5dac066266b</property>
+</record>
+<record>
+  <date>2019-08-27T15:52:01</date>
+  <millis>1566901321539</millis>
+  <sequence>211</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:52:02</date>
+  <millis>1566901322022</millis>
+  <sequence>213</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\43.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">b3d426f0-17f6-4142-bdbc-e9fd7e9c93b8</property>
+</record>
+<record>
+  <date>2019-08-27T15:52:02</date>
+  <millis>1566901322028</millis>
+  <sequence>214</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:52:02</date>
+  <millis>1566901322544</millis>
+  <sequence>216</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\44.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">5b638ae0-9171-4ae0-9033-b2b06b43293c</property>
+</record>
+<record>
+  <date>2019-08-27T15:52:02</date>
+  <millis>1566901322552</millis>
+  <sequence>217</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:52:03</date>
+  <millis>1566901323026</millis>
+  <sequence>219</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\45.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">954e50ad-bef7-4b6b-874a-9882f9e9fd03</property>
+</record>
+<record>
+  <date>2019-08-27T15:52:03</date>
+  <millis>1566901323035</millis>
+  <sequence>220</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:52:03</date>
+  <millis>1566901323521</millis>
+  <sequence>222</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\46.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">4a71fc56-d1f4-497e-8429-78782de8f96e</property>
+</record>
+<record>
+  <date>2019-08-27T15:52:03</date>
+  <millis>1566901323529</millis>
+  <sequence>223</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:52:04</date>
+  <millis>1566901324008</millis>
+  <sequence>225</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\47.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">164c80b8-60ec-48c1-bea6-0e7c2b065b51</property>
+</record>
+<record>
+  <date>2019-08-27T15:52:04</date>
+  <millis>1566901324016</millis>
+  <sequence>226</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:52:04</date>
+  <millis>1566901324494</millis>
+  <sequence>228</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\48.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">80b7c194-a6c4-45cb-aa55-9cdb194cbc10</property>
+</record>
+<record>
+  <date>2019-08-27T15:52:04</date>
+  <millis>1566901324501</millis>
+  <sequence>229</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:52:04</date>
+  <millis>1566901324975</millis>
+  <sequence>231</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\49.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">aac508a2-573d-4f63-b623-04e6e4d528e1</property>
+</record>
+<record>
+  <date>2019-08-27T15:52:04</date>
+  <millis>1566901324984</millis>
+  <sequence>232</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:52:05</date>
+  <millis>1566901325456</millis>
+  <sequence>234</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\50.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">b267fcdc-d75f-4896-bc2a-ba2c678f7261</property>
+</record>
+<record>
+  <date>2019-08-27T15:52:05</date>
+  <millis>1566901325458</millis>
+  <sequence>235</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:52:05</date>
+  <millis>1566901325931</millis>
+  <sequence>237</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\51.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">7e2b7ccb-9299-44d0-bb50-e1ce6fb8477a</property>
+</record>
+<record>
+  <date>2019-08-27T15:52:05</date>
+  <millis>1566901325940</millis>
+  <sequence>238</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:52:06</date>
+  <millis>1566901326425</millis>
+  <sequence>240</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\52.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">e752ca97-2e21-449d-8d6a-d142dc5b6b88</property>
+</record>
+<record>
+  <date>2019-08-27T15:52:06</date>
+  <millis>1566901326430</millis>
+  <sequence>241</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:52:06</date>
+  <millis>1566901326905</millis>
+  <sequence>243</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\53.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">c97940c4-f510-482f-855f-183eb79fc135</property>
+</record>
+<record>
+  <date>2019-08-27T15:52:06</date>
+  <millis>1566901326911</millis>
+  <sequence>244</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:52:07</date>
+  <millis>1566901327395</millis>
+  <sequence>246</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\54.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">dd5243d7-d624-42c7-a3b2-af9e82fa4b15</property>
+</record>
+<record>
+  <date>2019-08-27T15:52:07</date>
+  <millis>1566901327406</millis>
+  <sequence>247</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:52:07</date>
+  <millis>1566901327888</millis>
+  <sequence>249</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\55.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">a7ac034e-0f00-4e38-b7cc-26a46afcab72</property>
+</record>
+<record>
+  <date>2019-08-27T15:52:07</date>
+  <millis>1566901327896</millis>
+  <sequence>250</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:52:08</date>
+  <millis>1566901328377</millis>
+  <sequence>252</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\56.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">a1e8f05e-4bb0-41dd-81af-62c37465f8b9</property>
+</record>
+<record>
+  <date>2019-08-27T15:52:08</date>
+  <millis>1566901328387</millis>
+  <sequence>253</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:52:08</date>
+  <millis>1566901328864</millis>
+  <sequence>255</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\57.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">db5680c7-e594-41e6-b73b-6c4c6ddb95fb</property>
+</record>
+<record>
+  <date>2019-08-27T15:52:08</date>
+  <millis>1566901328873</millis>
+  <sequence>256</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:52:09</date>
+  <millis>1566901329354</millis>
+  <sequence>258</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\58.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">b3d898ee-a0ca-4587-947a-9812fac8dcd3</property>
+</record>
+<record>
+  <date>2019-08-27T15:52:09</date>
+  <millis>1566901329361</millis>
+  <sequence>259</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:52:09</date>
+  <millis>1566901329851</millis>
+  <sequence>261</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\59.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">3ad1fd9a-cf42-496e-8d69-6f3cfd1f3036</property>
+</record>
+<record>
+  <date>2019-08-27T15:52:09</date>
+  <millis>1566901329859</millis>
+  <sequence>262</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:52:10</date>
+  <millis>1566901330333</millis>
+  <sequence>264</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\60.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">b9eac645-83b8-4b9a-8952-2781bba6404e</property>
+</record>
+<record>
+  <date>2019-08-27T15:52:10</date>
+  <millis>1566901330341</millis>
+  <sequence>265</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:52:10</date>
+  <millis>1566901330844</millis>
+  <sequence>267</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\61.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">9069fd7c-58a0-45d1-9a9a-4a019b28fc48</property>
+</record>
+<record>
+  <date>2019-08-27T15:52:10</date>
+  <millis>1566901330848</millis>
+  <sequence>268</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:52:11</date>
+  <millis>1566901331318</millis>
+  <sequence>270</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\62.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">b398170d-cb10-4485-b879-d8a271729e4b</property>
+</record>
+<record>
+  <date>2019-08-27T15:52:11</date>
+  <millis>1566901331323</millis>
+  <sequence>271</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:52:11</date>
+  <millis>1566901331812</millis>
+  <sequence>273</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\63.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">489ffe47-2d0e-4660-b783-cedca9ce3a14</property>
+</record>
+<record>
+  <date>2019-08-27T15:52:11</date>
+  <millis>1566901331820</millis>
+  <sequence>274</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:52:12</date>
+  <millis>1566901332296</millis>
+  <sequence>276</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\64.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">e208ee8e-4243-407e-83b0-82269c8da90b</property>
+</record>
+<record>
+  <date>2019-08-27T15:52:12</date>
+  <millis>1566901332305</millis>
+  <sequence>277</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:52:12</date>
+  <millis>1566901332800</millis>
+  <sequence>279</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\65.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">13383615-7ee3-40c4-9411-dc2eec7a901f</property>
+</record>
+<record>
+  <date>2019-08-27T15:52:12</date>
+  <millis>1566901332805</millis>
+  <sequence>280</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:52:13</date>
+  <millis>1566901333311</millis>
+  <sequence>282</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\66.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">ea01ad60-0853-489a-b8a7-9cd317a380b3</property>
+</record>
+<record>
+  <date>2019-08-27T15:52:13</date>
+  <millis>1566901333315</millis>
+  <sequence>283</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:52:13</date>
+  <millis>1566901333801</millis>
+  <sequence>285</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\67.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">1ee6d030-5439-43a1-b3bd-24ad851d5604</property>
+</record>
+<record>
+  <date>2019-08-27T15:52:13</date>
+  <millis>1566901333809</millis>
+  <sequence>286</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:52:14</date>
+  <millis>1566901334302</millis>
+  <sequence>288</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\68.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">4429fefe-462d-47ec-a43c-fe6cc92da524</property>
+</record>
+<record>
+  <date>2019-08-27T15:52:14</date>
+  <millis>1566901334308</millis>
+  <sequence>289</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:52:14</date>
+  <millis>1566901334789</millis>
+  <sequence>291</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\69.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">83f92a1f-ac33-4394-bf54-e39e9e99f091</property>
+</record>
+<record>
+  <date>2019-08-27T15:52:14</date>
+  <millis>1566901334799</millis>
+  <sequence>292</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:52:15</date>
+  <millis>1566901335291</millis>
+  <sequence>294</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\70.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">28365ac6-24da-4129-9614-528fea01e8fd</property>
+</record>
+<record>
+  <date>2019-08-27T15:52:15</date>
+  <millis>1566901335299</millis>
+  <sequence>295</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:52:15</date>
+  <millis>1566901335779</millis>
+  <sequence>297</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\71.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">d5b782fc-8ab5-42ae-99ef-d36decc96cb8</property>
+</record>
+<record>
+  <date>2019-08-27T15:52:15</date>
+  <millis>1566901335788</millis>
+  <sequence>298</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:52:16</date>
+  <millis>1566901336268</millis>
+  <sequence>300</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\72.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">b159220b-2a5f-4439-a67b-15ebc5567322</property>
+</record>
+<record>
+  <date>2019-08-27T15:52:16</date>
+  <millis>1566901336275</millis>
+  <sequence>301</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:52:16</date>
+  <millis>1566901336755</millis>
+  <sequence>303</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\73.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">6a4ef624-e1ed-47b2-a7db-e8982105e6fa</property>
+</record>
+<record>
+  <date>2019-08-27T15:52:16</date>
+  <millis>1566901336763</millis>
+  <sequence>304</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:52:17</date>
+  <millis>1566901337268</millis>
+  <sequence>306</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\74.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">b6eee69b-e799-4337-bb2e-e06a6531fa48</property>
+</record>
+<record>
+  <date>2019-08-27T15:52:17</date>
+  <millis>1566901337277</millis>
+  <sequence>307</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:52:17</date>
+  <millis>1566901337757</millis>
+  <sequence>309</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\75.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">6855660c-630a-408c-92c6-447dc1665d21</property>
+</record>
+<record>
+  <date>2019-08-27T15:52:17</date>
+  <millis>1566901337765</millis>
+  <sequence>310</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:52:18</date>
+  <millis>1566901338239</millis>
+  <sequence>312</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\76.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">25194d06-3a5c-461b-b46d-49da31c0d7bb</property>
+</record>
+<record>
+  <date>2019-08-27T15:52:18</date>
+  <millis>1566901338242</millis>
+  <sequence>313</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:52:18</date>
+  <millis>1566901338724</millis>
+  <sequence>315</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\77.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">a6cffdd2-569a-4fc4-a6a2-bed22ab5e6fd</property>
+</record>
+<record>
+  <date>2019-08-27T15:52:18</date>
+  <millis>1566901338729</millis>
+  <sequence>316</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:52:19</date>
+  <millis>1566901339213</millis>
+  <sequence>318</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\78.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">9c9be86c-b3b0-4213-a8e4-e8170a1a5ae2</property>
+</record>
+<record>
+  <date>2019-08-27T15:52:19</date>
+  <millis>1566901339222</millis>
+  <sequence>319</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:52:20</date>
+  <millis>1566901340178</millis>
+  <sequence>321</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\79.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">6b5eb35f-8be0-489b-ae92-2d799f652566</property>
+</record>
+<record>
+  <date>2019-08-27T15:52:20</date>
+  <millis>1566901340182</millis>
+  <sequence>322</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:52:21</date>
+  <millis>1566901341119</millis>
+  <sequence>324</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\80.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">4eabd416-9016-4d8e-a125-57ce18bd4202</property>
+</record>
+<record>
+  <date>2019-08-27T15:52:21</date>
+  <millis>1566901341122</millis>
+  <sequence>325</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:52:22</date>
+  <millis>1566901342091</millis>
+  <sequence>327</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\81.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">dc6f9ff8-9141-468e-9785-774aec28bd5e</property>
+</record>
+<record>
+  <date>2019-08-27T15:52:22</date>
+  <millis>1566901342101</millis>
+  <sequence>328</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:52:22</date>
+  <millis>1566901342808</millis>
+  <sequence>330</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\82.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">825e12f5-fbd7-4e3e-b9f1-8feef236a333</property>
+</record>
+<record>
+  <date>2019-08-27T15:52:22</date>
+  <millis>1566901342816</millis>
+  <sequence>331</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:52:23</date>
+  <millis>1566901343994</millis>
+  <sequence>333</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\83.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">7e65da47-381e-45af-af3f-1189aff766a0</property>
+</record>
+<record>
+  <date>2019-08-27T15:52:24</date>
+  <millis>1566901344002</millis>
+  <sequence>334</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:52:25</date>
+  <millis>1566901345179</millis>
+  <sequence>336</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\84.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">b8d046bd-bdb7-4481-8451-a1c2fd1b6882</property>
+</record>
+<record>
+  <date>2019-08-27T15:52:25</date>
+  <millis>1566901345188</millis>
+  <sequence>337</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:52:25</date>
+  <millis>1566901345437</millis>
+  <sequence>339</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\85.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">0b4dcd70-eb1d-4daf-a606-514f069c3741</property>
+</record>
+<record>
+  <date>2019-08-27T15:52:25</date>
+  <millis>1566901345445</millis>
+  <sequence>340</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:52:25</date>
+  <millis>1566901345714</millis>
+  <sequence>342</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\86.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">6bdce339-9c5f-45bf-bca7-fe1f3b662835</property>
+</record>
+<record>
+  <date>2019-08-27T15:52:25</date>
+  <millis>1566901345722</millis>
+  <sequence>343</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:52:25</date>
+  <millis>1566901345984</millis>
+  <sequence>345</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\87.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">4a520acc-d605-4c58-a293-d67da6daa0a1</property>
+</record>
+<record>
+  <date>2019-08-27T15:52:25</date>
+  <millis>1566901345991</millis>
+  <sequence>346</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:52:26</date>
+  <millis>1566901346246</millis>
+  <sequence>348</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\88.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">6963ee8a-b085-4e3b-ac95-68da457fd8be</property>
+</record>
+<record>
+  <date>2019-08-27T15:52:26</date>
+  <millis>1566901346255</millis>
+  <sequence>349</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:52:26</date>
+  <millis>1566901346502</millis>
+  <sequence>351</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\89.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">8a80fe41-d0b4-44e5-a2f4-2b1a9cd52f2c</property>
+</record>
+<record>
+  <date>2019-08-27T15:52:26</date>
+  <millis>1566901346507</millis>
+  <sequence>352</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:52:26</date>
+  <millis>1566901346746</millis>
+  <sequence>354</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\90.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">cdf9d29b-ef75-41ee-ae73-2060a80e63fa</property>
+</record>
+<record>
+  <date>2019-08-27T15:52:26</date>
+  <millis>1566901346749</millis>
+  <sequence>355</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:52:27</date>
+  <millis>1566901347003</millis>
+  <sequence>357</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\91.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">ad4d7f0d-8fa7-4b43-bd21-c207ce481273</property>
+</record>
+<record>
+  <date>2019-08-27T15:52:27</date>
+  <millis>1566901347011</millis>
+  <sequence>358</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:52:27</date>
+  <millis>1566901347268</millis>
+  <sequence>360</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\92.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">0bbc691f-b545-4f99-a2c8-e9f69ee4d30f</property>
+</record>
+<record>
+  <date>2019-08-27T15:52:27</date>
+  <millis>1566901347271</millis>
+  <sequence>361</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:52:27</date>
+  <millis>1566901347511</millis>
+  <sequence>363</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\93.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">5cb1b069-deb2-4598-a85f-2a5b56ff66a8</property>
+</record>
+<record>
+  <date>2019-08-27T15:52:27</date>
+  <millis>1566901347514</millis>
+  <sequence>364</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:52:27</date>
+  <millis>1566901347768</millis>
+  <sequence>366</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\94.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">cfbe0537-7272-4d83-ac09-abb458d98643</property>
+</record>
+<record>
+  <date>2019-08-27T15:52:27</date>
+  <millis>1566901347771</millis>
+  <sequence>367</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:52:28</date>
+  <millis>1566901348011</millis>
+  <sequence>369</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\95.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">f6291904-cd1b-4ee5-af80-f656e0d7ab6b</property>
+</record>
+<record>
+  <date>2019-08-27T15:52:28</date>
+  <millis>1566901348018</millis>
+  <sequence>370</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:52:28</date>
+  <millis>1566901348263</millis>
+  <sequence>372</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\96.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">a23137b4-3a30-4da3-a807-26d5c43f9651</property>
+</record>
+<record>
+  <date>2019-08-27T15:52:28</date>
+  <millis>1566901348269</millis>
+  <sequence>373</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:52:28</date>
+  <millis>1566901348535</millis>
+  <sequence>375</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\97.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">8b5b31f3-a303-4098-8cca-713734d9c35d</property>
+</record>
+<record>
+  <date>2019-08-27T15:52:28</date>
+  <millis>1566901348538</millis>
+  <sequence>376</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:52:28</date>
+  <millis>1566901348776</millis>
+  <sequence>378</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\98.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">3b97c7c9-cf91-429a-ae7a-1db73f52871c</property>
+</record>
+<record>
+  <date>2019-08-27T15:52:28</date>
+  <millis>1566901348781</millis>
+  <sequence>379</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:52:29</date>
+  <millis>1566901349020</millis>
+  <sequence>381</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\99.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">63dc2af5-33c4-4150-ac12-885307571202</property>
+</record>
+<record>
+  <date>2019-08-27T15:52:29</date>
+  <millis>1566901349025</millis>
+  <sequence>382</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:52:29</date>
+  <millis>1566901349269</millis>
+  <sequence>384</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\100.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">a2a022e6-3e4f-4913-af0c-fb2845695a9b</property>
+</record>
+<record>
+  <date>2019-08-27T15:52:29</date>
+  <millis>1566901349278</millis>
+  <sequence>385</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:52:29</date>
+  <millis>1566901349521</millis>
+  <sequence>387</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\ranitha\\git\\API-Project-for-Demo\\Reports\\20190827_155041\\Test Suite- API Demo\\20190827_155042\\requests\\main\\101.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">d491531d-ca95-45e3-8e92-c5a44d3d74cf</property>
+</record>
+<record>
+  <date>2019-08-27T15:52:29</date>
+  <millis>1566901349525</millis>
+  <sequence>388</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:52:29</date>
+  <millis>1566901349545</millis>
+  <sequence>391</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 57 inaccessible links [http://www.deadlinkcity.com/missing-head-link-href.txt, http://www.deadlinkcity.com/error-page.asp?e=400, http://www.deadlinkcity.com/error-page.asp?e=401, http://www.deadlinkcity.com/error-page.asp?e=402, http://www.deadlinkcity.com/error-page.asp?e=403, http://www.deadlinkcity.com/error-page.asp?e=404, http://www.deadlinkcity.com/error-page.asp?e=405, http://www.deadlinkcity.com/error-page.asp?e=406, http://www.deadlinkcity.com/error-page.asp?e=407, http://www.deadlinkcity.com/error-page.asp?e=408, http://www.deadlinkcity.com/error-page.asp?e=409, http://www.deadlinkcity.com/error-page.asp?e=410, http://www.deadlinkcity.com/error-page.asp?e=411, http://www.deadlinkcity.com/error-page.asp?e=412, http://www.deadlinkcity.com/error-page.asp?e=413, http://www.deadlinkcity.com/error-page.asp?e=414, http://www.deadlinkcity.com/error-page.asp?e=415, http://www.deadlinkcity.com/error-page.asp?e=416, http://www.deadlinkcity.com/error-page.asp?e=417, http://www.deadlinkcity.com/error-page.asp?e=420, http://www.deadlinkcity.com/error-page.asp?e=422, http://www.deadlinkcity.com/error-page.asp?e=423, http://www.deadlinkcity.com/error-page.asp?e=424, http://www.deadlinkcity.com/error-page.asp?e=429, http://www.deadlinkcity.com/error-page.asp?e=431, http://www.deadlinkcity.com/error-page.asp?e=450, http://www.deadlinkcity.com/error-page.asp?e=500, http://www.deadlinkcity.com/error-page.asp?e=501, http://www.deadlinkcity.com/error-page.asp?e=502, http://www.deadlinkcity.com/error-page.asp?e=503, http://www.deadlinkcity.com/error-page.asp?e=504, http://www.deadlinkcity.com/error-page.asp?e=505, http://www.deadlinkcity.com/error-page.asp?e=506, http://www.deadlinkcity.com/error-page.asp?e=507, http://www.deadlinkcity.com/error-page.asp?e=509, http://www.deadlinkcity.com/error-page.asp?e=510, http://www.deadlinkcity.com/page-not-found.asp, http://www.deadlinkcity.com/default.asp?r=4, http://www.deadlinkcity.com/default.asp?r=5, http://www.deadlinkcity.com/default.asp?r=6, http://www.deadlinkcity.com/default.asp?r=7, http://www.deadlinkcity.com/disallowed/disallowed.html, http://www.deadlinkcity.com/disallowed/nonexistent.html, http://www.deadlinkcity.com/missing-area-test.asp, http://www.deadlinkcity.com/missing-audio-src.mp3, http://www.deadlinkcity.com/missing-sound.mp3, http://www.deadlinkcity.com/missing-blockquote-cite.html, http://www.deadlinkcity.com/missing-del-cite.html, http://www.deadlinkcity.com/missing-embed-src.swf, http://www.deadlinkcity.com/missing-iframe-src.html, http://www.deadlinkcity.com/images/missing-img-src.jpg, http://www.deadlinkcity.com/images/missing-input-src.jpg, http://www.deadlinkcity.com/missing-ins-cite.html, http://www.deadlinkcity.com/missing-object-data.swf, http://www.deadlinkcity.com/missing-q-cite.html, http://www.deadlinkcity.com/missing-script-src.js, http://www.deadlinkcity.com/missing-video-src.mp4] (Root cause: com.kms.katalon.core.exception.StepFailedException: Found 57 inaccessible links [http://www.deadlinkcity.com/missing-head-link-href.txt, http://www.deadlinkcity.com/error-page.asp?e=400, http://www.deadlinkcity.com/error-page.asp?e=401, http://www.deadlinkcity.com/error-page.asp?e=402, http://www.deadlinkcity.com/error-page.asp?e=403, http://www.deadlinkcity.com/error-page.asp?e=404, http://www.deadlinkcity.com/error-page.asp?e=405, http://www.deadlinkcity.com/error-page.asp?e=406, http://www.deadlinkcity.com/error-page.asp?e=407, http://www.deadlinkcity.com/error-page.asp?e=408, http://www.deadlinkcity.com/error-page.asp?e=409, http://www.deadlinkcity.com/error-page.asp?e=410, http://www.deadlinkcity.com/error-page.asp?e=411, http://www.deadlinkcity.com/error-page.asp?e=412, http://www.deadlinkcity.com/error-page.asp?e=413, http://www.deadlinkcity.com/error-page.asp?e=414, http://www.deadlinkcity.com/error-page.asp?e=415, http://www.deadlinkcity.com/error-page.asp?e=416, http://www.deadlinkcity.com/error-page.asp?e=417, http://www.deadlinkcity.com/error-page.asp?e=420, http://www.deadlinkcity.com/error-page.asp?e=422, http://www.deadlinkcity.com/error-page.asp?e=423, http://www.deadlinkcity.com/error-page.asp?e=424, http://www.deadlinkcity.com/error-page.asp?e=429, http://www.deadlinkcity.com/error-page.asp?e=431, http://www.deadlinkcity.com/error-page.asp?e=450, http://www.deadlinkcity.com/error-page.asp?e=500, http://www.deadlinkcity.com/error-page.asp?e=501, http://www.deadlinkcity.com/error-page.asp?e=502, http://www.deadlinkcity.com/error-page.asp?e=503, http://www.deadlinkcity.com/error-page.asp?e=504, http://www.deadlinkcity.com/error-page.asp?e=505, http://www.deadlinkcity.com/error-page.asp?e=506, http://www.deadlinkcity.com/error-page.asp?e=507, http://www.deadlinkcity.com/error-page.asp?e=509, http://www.deadlinkcity.com/error-page.asp?e=510, http://www.deadlinkcity.com/page-not-found.asp, http://www.deadlinkcity.com/default.asp?r=4, http://www.deadlinkcity.com/default.asp?r=5, http://www.deadlinkcity.com/default.asp?r=6, http://www.deadlinkcity.com/default.asp?r=7, http://www.deadlinkcity.com/disallowed/disallowed.html, http://www.deadlinkcity.com/disallowed/nonexistent.html, http://www.deadlinkcity.com/missing-area-test.asp, http://www.deadlinkcity.com/missing-audio-src.mp3, http://www.deadlinkcity.com/missing-sound.mp3, http://www.deadlinkcity.com/missing-blockquote-cite.html, http://www.deadlinkcity.com/missing-del-cite.html, http://www.deadlinkcity.com/missing-embed-src.swf, http://www.deadlinkcity.com/missing-iframe-src.html, http://www.deadlinkcity.com/images/missing-img-src.jpg, http://www.deadlinkcity.com/images/missing-input-src.jpg, http://www.deadlinkcity.com/missing-ins-cite.html, http://www.deadlinkcity.com/missing-object-data.swf, http://www.deadlinkcity.com/missing-q-cite.html, http://www.deadlinkcity.com/missing-script-src.js, http://www.deadlinkcity.com/missing-video-src.mp4]\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyLinksAccessibleKeyword$_verifyLinksAccessible_closure1.doCall(VerifyLinksAccessibleKeyword.groovy:52)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyLinksAccessibleKeyword$_verifyLinksAccessible_closure1.call(VerifyLinksAccessibleKeyword.groovy)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyLinksAccessibleKeyword.verifyLinksAccessible(VerifyLinksAccessibleKeyword.groovy:37)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyLinksAccessibleKeyword.execute(VerifyLinksAccessibleKeyword.groovy:32)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyLinksAccessible(WebUiBuiltInKeywords.groovy:3709)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyAllLinksOnCurrentPageAccessibleKeyword$_verifyAllLinksOnCurrentPageAccessible_closure1.doCall(VerifyAllLinksOnCurrentPageAccessibleKeyword.groovy:40)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyAllLinksOnCurrentPageAccessibleKeyword$_verifyAllLinksOnCurrentPageAccessible_closure1.call(VerifyAllLinksOnCurrentPageAccessibleKeyword.groovy)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyAllLinksOnCurrentPageAccessibleKeyword.verifyAllLinksOnCurrentPageAccessible(VerifyAllLinksOnCurrentPageAccessibleKeyword.groovy:48)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyAllLinksOnCurrentPageAccessibleKeyword.execute(VerifyAllLinksOnCurrentPageAccessibleKeyword.groovy:32)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyAllLinksOnCurrentPageAccessible(WebUiBuiltInKeywords.groovy:3754)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyAllLinksOnCurrentPageAccessible$2.call(Unknown Source)\r\n\tat VerifyBrokenLinks_Fail_Scenario.run(VerifyBrokenLinks_Fail_Scenario:22)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1566901242067.run(TempTestSuite1566901242067.groovy:35)\r\n)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="failed.exception.class">com.kms.katalon.core.exception.StepFailedException</property>
+  <property name="failed.exception.stacktrace">com.kms.katalon.core.exception.StepFailedException: Found 57 inaccessible links [http://www.deadlinkcity.com/missing-head-link-href.txt, http://www.deadlinkcity.com/error-page.asp?e=400, http://www.deadlinkcity.com/error-page.asp?e=401, http://www.deadlinkcity.com/error-page.asp?e=402, http://www.deadlinkcity.com/error-page.asp?e=403, http://www.deadlinkcity.com/error-page.asp?e=404, http://www.deadlinkcity.com/error-page.asp?e=405, http://www.deadlinkcity.com/error-page.asp?e=406, http://www.deadlinkcity.com/error-page.asp?e=407, http://www.deadlinkcity.com/error-page.asp?e=408, http://www.deadlinkcity.com/error-page.asp?e=409, http://www.deadlinkcity.com/error-page.asp?e=410, http://www.deadlinkcity.com/error-page.asp?e=411, http://www.deadlinkcity.com/error-page.asp?e=412, http://www.deadlinkcity.com/error-page.asp?e=413, http://www.deadlinkcity.com/error-page.asp?e=414, http://www.deadlinkcity.com/error-page.asp?e=415, http://www.deadlinkcity.com/error-page.asp?e=416, http://www.deadlinkcity.com/error-page.asp?e=417, http://www.deadlinkcity.com/error-page.asp?e=420, http://www.deadlinkcity.com/error-page.asp?e=422, http://www.deadlinkcity.com/error-page.asp?e=423, http://www.deadlinkcity.com/error-page.asp?e=424, http://www.deadlinkcity.com/error-page.asp?e=429, http://www.deadlinkcity.com/error-page.asp?e=431, http://www.deadlinkcity.com/error-page.asp?e=450, http://www.deadlinkcity.com/error-page.asp?e=500, http://www.deadlinkcity.com/error-page.asp?e=501, http://www.deadlinkcity.com/error-page.asp?e=502, http://www.deadlinkcity.com/error-page.asp?e=503, http://www.deadlinkcity.com/error-page.asp?e=504, http://www.deadlinkcity.com/error-page.asp?e=505, http://www.deadlinkcity.com/error-page.asp?e=506, http://www.deadlinkcity.com/error-page.asp?e=507, http://www.deadlinkcity.com/error-page.asp?e=509, http://www.deadlinkcity.com/error-page.asp?e=510, http://www.deadlinkcity.com/page-not-found.asp, http://www.deadlinkcity.com/default.asp?r=4, http://www.deadlinkcity.com/default.asp?r=5, http://www.deadlinkcity.com/default.asp?r=6, http://www.deadlinkcity.com/default.asp?r=7, http://www.deadlinkcity.com/disallowed/disallowed.html, http://www.deadlinkcity.com/disallowed/nonexistent.html, http://www.deadlinkcity.com/missing-area-test.asp, http://www.deadlinkcity.com/missing-audio-src.mp3, http://www.deadlinkcity.com/missing-sound.mp3, http://www.deadlinkcity.com/missing-blockquote-cite.html, http://www.deadlinkcity.com/missing-del-cite.html, http://www.deadlinkcity.com/missing-embed-src.swf, http://www.deadlinkcity.com/missing-iframe-src.html, http://www.deadlinkcity.com/images/missing-img-src.jpg, http://www.deadlinkcity.com/images/missing-input-src.jpg, http://www.deadlinkcity.com/missing-ins-cite.html, http://www.deadlinkcity.com/missing-object-data.swf, http://www.deadlinkcity.com/missing-q-cite.html, http://www.deadlinkcity.com/missing-script-src.js, http://www.deadlinkcity.com/missing-video-src.mp4]\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyLinksAccessibleKeyword$_verifyLinksAccessible_closure1.doCall(VerifyLinksAccessibleKeyword.groovy:52)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyLinksAccessibleKeyword$_verifyLinksAccessible_closure1.call(VerifyLinksAccessibleKeyword.groovy)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyLinksAccessibleKeyword.verifyLinksAccessible(VerifyLinksAccessibleKeyword.groovy:37)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyLinksAccessibleKeyword.execute(VerifyLinksAccessibleKeyword.groovy:32)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyLinksAccessible(WebUiBuiltInKeywords.groovy:3709)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyAllLinksOnCurrentPageAccessibleKeyword$_verifyAllLinksOnCurrentPageAccessible_closure1.doCall(VerifyAllLinksOnCurrentPageAccessibleKeyword.groovy:40)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyAllLinksOnCurrentPageAccessibleKeyword$_verifyAllLinksOnCurrentPageAccessible_closure1.call(VerifyAllLinksOnCurrentPageAccessibleKeyword.groovy)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyAllLinksOnCurrentPageAccessibleKeyword.verifyAllLinksOnCurrentPageAccessible(VerifyAllLinksOnCurrentPageAccessibleKeyword.groovy:48)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyAllLinksOnCurrentPageAccessibleKeyword.execute(VerifyAllLinksOnCurrentPageAccessibleKeyword.groovy:32)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyAllLinksOnCurrentPageAccessible(WebUiBuiltInKeywords.groovy:3754)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyAllLinksOnCurrentPageAccessible$2.call(Unknown Source)\r\n\tat VerifyBrokenLinks_Fail_Scenario.run(VerifyBrokenLinks_Fail_Scenario:22)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1566901242067.run(TempTestSuite1566901242067.groovy:35)\r\n</property>
+  <property name="failed.exception.message">Found 57 inaccessible links [http://www.deadlinkcity.com/missing-head-link-href.txt, http://www.deadlinkcity.com/error-page.asp?e=400, http://www.deadlinkcity.com/error-page.asp?e=401, http://www.deadlinkcity.com/error-page.asp?e=402, http://www.deadlinkcity.com/error-page.asp?e=403, http://www.deadlinkcity.com/error-page.asp?e=404, http://www.deadlinkcity.com/error-page.asp?e=405, http://www.deadlinkcity.com/error-page.asp?e=406, http://www.deadlinkcity.com/error-page.asp?e=407, http://www.deadlinkcity.com/error-page.asp?e=408, http://www.deadlinkcity.com/error-page.asp?e=409, http://www.deadlinkcity.com/error-page.asp?e=410, http://www.deadlinkcity.com/error-page.asp?e=411, http://www.deadlinkcity.com/error-page.asp?e=412, http://www.deadlinkcity.com/error-page.asp?e=413, http://www.deadlinkcity.com/error-page.asp?e=414, http://www.deadlinkcity.com/error-page.asp?e=415, http://www.deadlinkcity.com/error-page.asp?e=416, http://www.deadlinkcity.com/error-page.asp?e=417, http://www.deadlinkcity.com/error-page.asp?e=420, http://www.deadlinkcity.com/error-page.asp?e=422, http://www.deadlinkcity.com/error-page.asp?e=423, http://www.deadlinkcity.com/error-page.asp?e=424, http://www.deadlinkcity.com/error-page.asp?e=429, http://www.deadlinkcity.com/error-page.asp?e=431, http://www.deadlinkcity.com/error-page.asp?e=450, http://www.deadlinkcity.com/error-page.asp?e=500, http://www.deadlinkcity.com/error-page.asp?e=501, http://www.deadlinkcity.com/error-page.asp?e=502, http://www.deadlinkcity.com/error-page.asp?e=503, http://www.deadlinkcity.com/error-page.asp?e=504, http://www.deadlinkcity.com/error-page.asp?e=505, http://www.deadlinkcity.com/error-page.asp?e=506, http://www.deadlinkcity.com/error-page.asp?e=507, http://www.deadlinkcity.com/error-page.asp?e=509, http://www.deadlinkcity.com/error-page.asp?e=510, http://www.deadlinkcity.com/page-not-found.asp, http://www.deadlinkcity.com/default.asp?r=4, http://www.deadlinkcity.com/default.asp?r=5, http://www.deadlinkcity.com/default.asp?r=6, http://www.deadlinkcity.com/default.asp?r=7, http://www.deadlinkcity.com/disallowed/disallowed.html, http://www.deadlinkcity.com/disallowed/nonexistent.html, http://www.deadlinkcity.com/missing-area-test.asp, http://www.deadlinkcity.com/missing-audio-src.mp3, http://www.deadlinkcity.com/missing-sound.mp3, http://www.deadlinkcity.com/missing-blockquote-cite.html, http://www.deadlinkcity.com/missing-del-cite.html, http://www.deadlinkcity.com/missing-embed-src.swf, http://www.deadlinkcity.com/missing-iframe-src.html, http://www.deadlinkcity.com/images/missing-img-src.jpg, http://www.deadlinkcity.com/images/missing-input-src.jpg, http://www.deadlinkcity.com/missing-ins-cite.html, http://www.deadlinkcity.com/missing-object-data.swf, http://www.deadlinkcity.com/missing-q-cite.html, http://www.deadlinkcity.com/missing-script-src.js, http://www.deadlinkcity.com/missing-video-src.mp4]</property>
+</record>
+<record>
+  <date>2019-08-27T15:52:29</date>
+  <millis>1566901349561</millis>
+  <sequence>394</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Some of links on the current page are inaccessible (Root cause: com.kms.katalon.core.exception.StepFailedException: Some of links on the current page are inaccessible\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyAllLinksOnCurrentPageAccessibleKeyword$_verifyAllLinksOnCurrentPageAccessible_closure1.doCall(VerifyAllLinksOnCurrentPageAccessibleKeyword.groovy:45)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyAllLinksOnCurrentPageAccessibleKeyword$_verifyAllLinksOnCurrentPageAccessible_closure1.call(VerifyAllLinksOnCurrentPageAccessibleKeyword.groovy)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyAllLinksOnCurrentPageAccessibleKeyword.verifyAllLinksOnCurrentPageAccessible(VerifyAllLinksOnCurrentPageAccessibleKeyword.groovy:48)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyAllLinksOnCurrentPageAccessibleKeyword.execute(VerifyAllLinksOnCurrentPageAccessibleKeyword.groovy:32)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyAllLinksOnCurrentPageAccessible(WebUiBuiltInKeywords.groovy:3754)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyAllLinksOnCurrentPageAccessible$2.call(Unknown Source)\r\n\tat VerifyBrokenLinks_Fail_Scenario.run(VerifyBrokenLinks_Fail_Scenario:22)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1566901242067.run(TempTestSuite1566901242067.groovy:35)\r\n)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="failed.exception.class">com.kms.katalon.core.exception.StepFailedException</property>
+  <property name="failed.exception.stacktrace">com.kms.katalon.core.exception.StepFailedException: Some of links on the current page are inaccessible\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyAllLinksOnCurrentPageAccessibleKeyword$_verifyAllLinksOnCurrentPageAccessible_closure1.doCall(VerifyAllLinksOnCurrentPageAccessibleKeyword.groovy:45)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyAllLinksOnCurrentPageAccessibleKeyword$_verifyAllLinksOnCurrentPageAccessible_closure1.call(VerifyAllLinksOnCurrentPageAccessibleKeyword.groovy)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyAllLinksOnCurrentPageAccessibleKeyword.verifyAllLinksOnCurrentPageAccessible(VerifyAllLinksOnCurrentPageAccessibleKeyword.groovy:48)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyAllLinksOnCurrentPageAccessibleKeyword.execute(VerifyAllLinksOnCurrentPageAccessibleKeyword.groovy:32)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyAllLinksOnCurrentPageAccessible(WebUiBuiltInKeywords.groovy:3754)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyAllLinksOnCurrentPageAccessible$2.call(Unknown Source)\r\n\tat VerifyBrokenLinks_Fail_Scenario.run(VerifyBrokenLinks_Fail_Scenario:22)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1566901242067.run(TempTestSuite1566901242067.groovy:35)\r\n</property>
+  <property name="failed.exception.message">Some of links on the current page are inaccessible</property>
+</record>
+<record>
+  <date>2019-08-27T15:52:29</date>
+  <millis>1566901349565</millis>
+  <sequence>398</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Unable to verify all links on the page &amp;apos;http://www.deadlinkcity.com/&amp;apos; are accessible (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify all links on the page &amp;apos;http://www.deadlinkcity.com/&amp;apos; are accessible\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyAllLinksOnCurrentPageAccessibleKeyword.verifyAllLinksOnCurrentPageAccessible(VerifyAllLinksOnCurrentPageAccessibleKeyword.groovy:48)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyAllLinksOnCurrentPageAccessibleKeyword.execute(VerifyAllLinksOnCurrentPageAccessibleKeyword.groovy:32)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyAllLinksOnCurrentPageAccessible(WebUiBuiltInKeywords.groovy:3754)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyAllLinksOnCurrentPageAccessible$2.call(Unknown Source)\r\n\tat VerifyBrokenLinks_Fail_Scenario.run(VerifyBrokenLinks_Fail_Scenario:22)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1566901242067.run(TempTestSuite1566901242067.groovy:35)\r\nCaused by: com.kms.katalon.core.exception.StepFailedException: Some of links on the current page are inaccessible\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyAllLinksOnCurrentPageAccessibleKeyword$_verifyAllLinksOnCurrentPageAccessible_closure1.doCall(VerifyAllLinksOnCurrentPageAccessibleKeyword.groovy:45)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyAllLinksOnCurrentPageAccessibleKeyword$_verifyAllLinksOnCurrentPageAccessible_closure1.call(VerifyAllLinksOnCurrentPageAccessibleKeyword.groovy)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)\r\n\t... 19 more\r\n)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="failed.exception.class">com.kms.katalon.core.exception.StepFailedException</property>
+  <property name="failed.exception.stacktrace">com.kms.katalon.core.exception.StepFailedException: Some of links on the current page are inaccessible\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyAllLinksOnCurrentPageAccessibleKeyword$_verifyAllLinksOnCurrentPageAccessible_closure1.doCall(VerifyAllLinksOnCurrentPageAccessibleKeyword.groovy:45)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyAllLinksOnCurrentPageAccessibleKeyword$_verifyAllLinksOnCurrentPageAccessible_closure1.call(VerifyAllLinksOnCurrentPageAccessibleKeyword.groovy)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyAllLinksOnCurrentPageAccessibleKeyword.verifyAllLinksOnCurrentPageAccessible(VerifyAllLinksOnCurrentPageAccessibleKeyword.groovy:48)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyAllLinksOnCurrentPageAccessibleKeyword.execute(VerifyAllLinksOnCurrentPageAccessibleKeyword.groovy:32)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyAllLinksOnCurrentPageAccessible(WebUiBuiltInKeywords.groovy:3754)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyAllLinksOnCurrentPageAccessible$2.call(Unknown Source)\r\n\tat VerifyBrokenLinks_Fail_Scenario.run(VerifyBrokenLinks_Fail_Scenario:22)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1566901242067.run(TempTestSuite1566901242067.groovy:35)\r\n</property>
+  <property name="failed.exception.message">Some of links on the current page are inaccessible</property>
+</record>
+<record>
+  <date>2019-08-27T15:52:29</date>
+  <millis>1566901349568</millis>
+  <sequence>399</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyAllLinksOnCurrentPageAccessible(false, [])</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:52:29</date>
+  <millis>1566901349570</millis>
+  <sequence>402</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/VerifyBrokenLinks_Fail_Scenario FAILED.\nReason:\ncom.kms.katalon.core.exception.StepFailedException: Unable to verify all links on the page &amp;apos;http://www.deadlinkcity.com/&amp;apos; are accessible\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyAllLinksOnCurrentPageAccessibleKeyword.verifyAllLinksOnCurrentPageAccessible(VerifyAllLinksOnCurrentPageAccessibleKeyword.groovy:48)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyAllLinksOnCurrentPageAccessibleKeyword.execute(VerifyAllLinksOnCurrentPageAccessibleKeyword.groovy:32)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyAllLinksOnCurrentPageAccessible(WebUiBuiltInKeywords.groovy:3754)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyAllLinksOnCurrentPageAccessible$2.call(Unknown Source)\r\n\tat VerifyBrokenLinks_Fail_Scenario.run(VerifyBrokenLinks_Fail_Scenario:22)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1566901242067.run(TempTestSuite1566901242067.groovy:35)\r\nCaused by: com.kms.katalon.core.exception.StepFailedException: Some of links on the current page are inaccessible\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyAllLinksOnCurrentPageAccessibleKeyword$_verifyAllLinksOnCurrentPageAccessible_closure1.doCall(VerifyAllLinksOnCurrentPageAccessibleKeyword.groovy:45)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyAllLinksOnCurrentPageAccessibleKeyword$_verifyAllLinksOnCurrentPageAccessible_closure1.call(VerifyAllLinksOnCurrentPageAccessibleKeyword.groovy)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)\r\n\t... 19 more\r\n</message>
+  <exception>
+    <message>com.kms.katalon.core.exception.StepFailedException: Unable to verify all links on the page 'http://www.deadlinkcity.com/' are accessible</message>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain</class>
+      <method>stepFailed</method>
+      <line>64</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain</class>
+      <method>runKeyword</method>
+      <line>26</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.builtin.VerifyAllLinksOnCurrentPageAccessibleKeyword</class>
+      <method>verifyAllLinksOnCurrentPageAccessible</method>
+      <line>48</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.builtin.VerifyAllLinksOnCurrentPageAccessibleKeyword</class>
+      <method>execute</method>
+      <line>32</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordExecutor</class>
+      <method>executeKeywordForPlatform</method>
+      <line>56</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords</class>
+      <method>verifyAllLinksOnCurrentPageAccessible</method>
+      <line>3754</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyAllLinksOnCurrentPageAccessible$2</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>VerifyBrokenLinks_Fail_Scenario</class>
+      <method>run</method>
+      <line>22</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>337</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>328</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>307</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>299</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>233</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>169</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>142</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>91</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>157</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1566901242067</class>
+      <method>run</method>
+      <line>35</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <property name="failed.exception.stacktrace">com.kms.katalon.core.exception.StepFailedException: Some of links on the current page are inaccessible\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyAllLinksOnCurrentPageAccessibleKeyword$_verifyAllLinksOnCurrentPageAccessible_closure1.doCall(VerifyAllLinksOnCurrentPageAccessibleKeyword.groovy:45)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyAllLinksOnCurrentPageAccessibleKeyword$_verifyAllLinksOnCurrentPageAccessible_closure1.call(VerifyAllLinksOnCurrentPageAccessibleKeyword.groovy)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyAllLinksOnCurrentPageAccessibleKeyword.verifyAllLinksOnCurrentPageAccessible(VerifyAllLinksOnCurrentPageAccessibleKeyword.groovy:48)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyAllLinksOnCurrentPageAccessibleKeyword.execute(VerifyAllLinksOnCurrentPageAccessibleKeyword.groovy:32)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyAllLinksOnCurrentPageAccessible(WebUiBuiltInKeywords.groovy:3754)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyAllLinksOnCurrentPageAccessible$2.call(Unknown Source)\r\n\tat VerifyBrokenLinks_Fail_Scenario.run(VerifyBrokenLinks_Fail_Scenario:22)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1566901242067.run(TempTestSuite1566901242067.groovy:35)\r\n</property>
+  <property name="failed.exception.class">com.kms.katalon.core.exception.StepFailedException</property>
+  <property name="failed.exception.message">Some of links on the current page are inaccessible</property>
+</record>
+<record>
+  <date>2019-08-27T15:52:29</date>
+  <millis>1566901349616</millis>
+  <sequence>404</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/VerifyBrokenLinks_Fail_Scenario</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-08-27T15:52:30</date>
+  <millis>1566901350523</millis>
+  <sequence>405</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/Test Suite- API Demo</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<record>
+  <date>2019-08-27T16:03:25</date>
+  <millis>1566902005880</millis>
+  <sequence>1134</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>572</thread>
+  <message>HAR: C:\\Users\\ranitha\\AppData\\Local\\Temp\\har4296791298860117286\\requests\\ModalContext\\0.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">aa284a65-43a5-4b35-b6a0-735f4abffb3c</property>
+</record>
+<record>
+  <date>2019-08-27T16:04:06</date>
+  <millis>1566902046870</millis>
+  <sequence>1135</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>578</thread>
+  <message>HAR: C:\\Users\\ranitha\\AppData\\Local\\Temp\\har3350522470329664317\\requests\\ModalContext\\1.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">2d707554-7dc7-4338-911a-a69c4370a81d</property>
+</record>
+<record>
+  <date>2019-08-27T16:04:18</date>
+  <millis>1566902058077</millis>
+  <sequence>1136</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>582</thread>
+  <message>HAR: C:\\Users\\ranitha\\AppData\\Local\\Temp\\har2172444197129204245\\requests\\ModalContext\\2.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">365d2906-8048-41db-91bb-61ea5dff44b9</property>
+</record>
+<record>
+  <date>2019-08-27T16:05:07</date>
+  <millis>1566902107584</millis>
+  <sequence>1137</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>609</thread>
+  <message>HAR: C:\\Users\\ranitha\\AppData\\Local\\Temp\\har1797321165016634189\\requests\\ModalContext\\3.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">ded83f8e-a6d5-46da-9cfc-4e35515efb0f</property>
+</record>
+<record>
+  <date>2019-08-27T16:06:14</date>
+  <millis>1566902174592</millis>
+  <sequence>1138</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>613</thread>
+  <message>HAR: C:\\Users\\ranitha\\AppData\\Local\\Temp\\har8078258230908762540\\requests\\ModalContext\\4.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">4877eff5-3f25-4a1a-9ec2-deca842f0cd7</property>
+</record>
+<record>
+  <date>2019-08-27T18:25:31</date>
+  <millis>1566910531600</millis>
+  <sequence>1139</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>637</thread>
+  <message>HAR: C:\\Users\\ranitha\\AppData\\Local\\Temp\\har675013514751510151\\requests\\ModalContext\\5.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">1e1cb966-aca3-4471-8083-28c7c0d72c2b</property>
+</record>
+<record>
+  <date>2019-08-27T18:25:49</date>
+  <millis>1566910549206</millis>
+  <sequence>1140</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>643</thread>
+  <message>HAR: C:\\Users\\ranitha\\AppData\\Local\\Temp\\har2609245828175652948\\requests\\ModalContext\\6.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">e3b7daa7-ba05-4c92-b8fd-010b0bbb596b</property>
+</record>
+<record>
+  <date>2019-08-27T18:26:56</date>
+  <millis>1566910616846</millis>
+  <sequence>1141</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>648</thread>
+  <message>HAR: C:\\Users\\ranitha\\AppData\\Local\\Temp\\har4598618979601664822\\requests\\ModalContext\\7.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">c8c543ad-0c6d-47c7-ba21-ed8a5f5c0507</property>
+</record>
+<record>
+  <date>2019-08-27T18:27:10</date>
+  <millis>1566910630556</millis>
+  <sequence>1142</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>654</thread>
+  <message>HAR: C:\\Users\\ranitha\\AppData\\Local\\Temp\\har7117550934677522522\\requests\\ModalContext\\8.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">e78f2fa5-e929-409a-9c13-41391d1348a7</property>
+</record>
+<record>
+  <date>2019-08-27T18:27:20</date>
+  <millis>1566910640606</millis>
+  <sequence>1143</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>659</thread>
+  <message>HAR: C:\\Users\\ranitha\\AppData\\Local\\Temp\\har6558610666780290322\\requests\\ModalContext\\9.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">6c5931a0-59a0-4cb5-ba58-6bcfa5922ebb</property>
+</record>
+<record>
+  <date>2019-08-27T18:27:35</date>
+  <millis>1566910655371</millis>
+  <sequence>1144</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>663</thread>
+  <message>HAR: C:\\Users\\ranitha\\AppData\\Local\\Temp\\har4765003798950441665\\requests\\ModalContext\\10.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">cb5d2f92-c69b-4e18-a423-8dab6941bd52</property>
+</record>
+<record>
+  <date>2019-08-27T18:28:05</date>
+  <millis>1566910685333</millis>
+  <sequence>1145</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>668</thread>
+  <message>HAR: C:\\Users\\ranitha\\AppData\\Local\\Temp\\har6312437980207890695\\requests\\ModalContext\\11.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">5e0afe8c-1d41-465f-b7b6-a2cedff31229</property>
+</record>
+<record>
+  <date>2019-08-27T18:29:08</date>
+  <millis>1566910748661</millis>
+  <sequence>1146</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>678</thread>
+  <message>HAR: C:\\Users\\ranitha\\AppData\\Local\\Temp\\har1547232791818068902\\requests\\ModalContext\\12.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">dddfea03-16ec-465b-bee0-05e9db009d6f</property>
+</record>
+<record>
+  <date>2019-08-27T18:29:12</date>
+  <millis>1566910752990</millis>
+  <sequence>1147</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>683</thread>
+  <message>HAR: C:\\Users\\ranitha\\AppData\\Local\\Temp\\har7699202798132390490\\requests\\ModalContext\\13.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">96c67695-fca1-457c-9bd3-34f59d9cebbb</property>
+</record>
+<record>
+  <date>2019-08-27T18:29:31</date>
+  <millis>1566910771703</millis>
+  <sequence>1148</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>687</thread>
+  <message>HAR: C:\\Users\\ranitha\\AppData\\Local\\Temp\\har1211547238460438842\\requests\\ModalContext\\14.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">cef3a361-b9aa-4677-83da-62e75d0c82b7</property>
+</record>
+<record>
+  <date>2019-08-27T18:31:26</date>
+  <millis>1566910886041</millis>
+  <sequence>1149</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>695</thread>
+  <message>HAR: C:\\Users\\ranitha\\AppData\\Local\\Temp\\har5782173597350983173\\requests\\ModalContext\\15.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">1b6c4d60-6f23-4e16-ab7b-fcde5e56e15f</property>
+</record>
+<record>
+  <date>2019-08-27T18:31:48</date>
+  <millis>1566910908937</millis>
+  <sequence>1150</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>708</thread>
+  <message>HAR: C:\\Users\\ranitha\\AppData\\Local\\Temp\\har7002433138786521999\\requests\\ModalContext\\16.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">65443e30-1e88-4c9e-895a-c28fcf1090ab</property>
+</record>
+<record>
+  <date>2019-08-27T18:32:26</date>
+  <millis>1566910946053</millis>
+  <sequence>1151</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>719</thread>
+  <message>HAR: C:\\Users\\ranitha\\AppData\\Local\\Temp\\har2047761516548944889\\requests\\ModalContext\\17.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">f2ab43b2-4ed4-4a85-b923-227e7fa4713b</property>
+</record>
+<record>
+  <date>2019-08-27T18:43:18</date>
+  <millis>1566911598914</millis>
+  <sequence>1152</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>732</thread>
+  <message>HAR: C:\\Users\\ranitha\\AppData\\Local\\Temp\\har4911133753830845645\\requests\\ModalContext\\18.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">4d7f0a80-16d4-487f-9160-ed36ee2336b7</property>
+</record>
+<record>
+  <date>2019-08-27T18:43:45</date>
+  <millis>1566911625586</millis>
+  <sequence>1153</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>737</thread>
+  <message>HAR: C:\\Users\\ranitha\\AppData\\Local\\Temp\\har5628055664983038979\\requests\\ModalContext\\19.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">d91b187c-7e10-4b75-8f48-3c5ce78c12fa</property>
+</record>
+<record>
+  <date>2019-08-27T18:44:36</date>
+  <millis>1566911676253</millis>
+  <sequence>1154</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>743</thread>
+  <message>HAR: C:\\Users\\ranitha\\AppData\\Local\\Temp\\har999314951494268523\\requests\\ModalContext\\20.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">71a657de-e8cb-4b32-866e-170279990af4</property>
+</record>
+<record>
+  <date>2019-08-27T18:44:46</date>
+  <millis>1566911686096</millis>
+  <sequence>1155</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>748</thread>
+  <message>HAR: C:\\Users\\ranitha\\AppData\\Local\\Temp\\har7874011866192957738\\requests\\ModalContext\\21.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">e22f1564-733d-47ca-a919-f07efaca6a73</property>
+</record>
+<record>
+  <date>2019-08-27T18:45:23</date>
+  <millis>1566911723131</millis>
+  <sequence>1156</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>753</thread>
+  <message>HAR: C:\\Users\\ranitha\\AppData\\Local\\Temp\\har6840248765596640011\\requests\\ModalContext\\22.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">f41b8fbb-4f53-4b33-a9a1-94d9e0b0f94b</property>
+</record>
+<record>
+  <date>2019-08-27T18:45:42</date>
+  <millis>1566911742788</millis>
+  <sequence>1157</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>758</thread>
+  <message>HAR: C:\\Users\\ranitha\\AppData\\Local\\Temp\\har2806724201015526056\\requests\\ModalContext\\23.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">959b4471-3108-47ae-a23b-1284888e466d</property>
+</record>
+<record>
+  <date>2019-08-27T19:10:55</date>
+  <millis>1566913255133</millis>
+  <sequence>1187</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>861</thread>
+  <message>HAR: C:\\Users\\ranitha\\AppData\\Local\\Temp\\har4818327284474241419\\requests\\ModalContext\\24.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">4e7346c5-8284-49eb-a26a-bacb5262d9a1</property>
+</record>
+<record>
+  <date>2019-08-27T19:11:13</date>
+  <millis>1566913273222</millis>
+  <sequence>1188</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>866</thread>
+  <message>HAR: C:\\Users\\ranitha\\AppData\\Local\\Temp\\har8731943734441809703\\requests\\ModalContext\\25.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">73818913-deb7-426c-b137-a2fad9e6563f</property>
+</record>
+<record>
+  <date>2019-08-27T19:12:13</date>
+  <millis>1566913333585</millis>
+  <sequence>1189</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>875</thread>
+  <message>HAR: C:\\Users\\ranitha\\AppData\\Local\\Temp\\har2089489868567968482\\requests\\ModalContext\\26.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">1baafac4-66ca-4eed-88b6-90cabcb53339</property>
+</record>
+<record>
+  <date>2019-08-27T19:16:23</date>
+  <millis>1566913583760</millis>
+  <sequence>1190</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>883</thread>
+  <message>HAR: C:\\Users\\ranitha\\AppData\\Local\\Temp\\har8701214761966593293\\requests\\ModalContext\\27.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">035fa1ef-1a19-4554-8fbb-a69d13fa2bc2</property>
+</record>
+<record>
+  <date>2019-08-27T19:17:16</date>
+  <millis>1566913636287</millis>
+  <sequence>1202</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>898</thread>
+  <message>HAR: C:\\Users\\ranitha\\AppData\\Local\\Temp\\har3852213037446640516\\requests\\ModalContext\\28.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">f61d9417-7261-4d8f-980b-157e5915f0b4</property>
+</record>
+<record>
+  <date>2019-08-27T19:17:27</date>
+  <millis>1566913647693</millis>
+  <sequence>1203</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>903</thread>
+  <message>HAR: C:\\Users\\ranitha\\AppData\\Local\\Temp\\har299656541355180983\\requests\\ModalContext\\29.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">11d0854e-e96a-4dc3-95e7-11e95b152329</property>
+</record>
+<record>
+  <date>2019-08-27T19:18:59</date>
+  <millis>1566913739609</millis>
+  <sequence>1222</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>932</thread>
+  <message>HAR: C:\\Users\\ranitha\\AppData\\Local\\Temp\\har4233000715460988477\\requests\\ModalContext\\30.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">1a00fc1f-eddb-4145-8fc7-b385c3962bd8</property>
+</record>
+<record>
+  <date>2019-08-27T19:22:47</date>
+  <millis>1566913967706</millis>
+  <sequence>1259</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1000</thread>
+  <message>HAR: C:\\Users\\ranitha\\AppData\\Local\\Temp\\har3017392393603301718\\requests\\ModalContext\\31.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">977cbbcd-22c6-48cb-b43a-361fa0256adc</property>
+</record>
+<record>
+  <date>2019-08-27T19:41:23</date>
+  <millis>1566915083530</millis>
+  <sequence>1280</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1167</thread>
+  <message>HAR: C:\\Users\\ranitha\\AppData\\Local\\Temp\\har5015409459954475842\\requests\\ModalContext\\32.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">7d2a9c8c-0d4f-418d-959e-4a1436980e9c</property>
+</record>
+<record>
+  <date>2019-08-27T19:43:41</date>
+  <millis>1566915221530</millis>
+  <sequence>1320</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1322</thread>
+  <message>HAR: C:\\Users\\ranitha\\AppData\\Local\\Temp\\har4449361299300304195\\requests\\ModalContext\\33.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">75caf6f1-ca3d-4f9b-8b20-64c6b902871f</property>
+</record>
+</log>
